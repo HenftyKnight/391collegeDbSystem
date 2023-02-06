@@ -92,7 +92,7 @@
             this.Controls.Add(this.classBtn);
             this.Controls.Add(this.panel1);
             this.Name = "Registration";
-            this.Text = "Form2";
+            this.Text = "Registration";
             this.ResumeLayout(false);
             this.PerformLayout();
 
