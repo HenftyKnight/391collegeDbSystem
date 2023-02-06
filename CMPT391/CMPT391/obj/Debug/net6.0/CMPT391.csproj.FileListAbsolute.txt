@@ -1,0 +1,15 @@
+C:\Users\jason\source\repos\CMPT391\CMPT391\bin\Debug\net6.0\CMPT391.exe
+C:\Users\jason\source\repos\CMPT391\CMPT391\bin\Debug\net6.0\CMPT391.deps.json
+C:\Users\jason\source\repos\CMPT391\CMPT391\bin\Debug\net6.0\CMPT391.runtimeconfig.json
+C:\Users\jason\source\repos\CMPT391\CMPT391\bin\Debug\net6.0\CMPT391.dll
+C:\Users\jason\source\repos\CMPT391\CMPT391\bin\Debug\net6.0\CMPT391.pdb
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.csproj.AssemblyReference.cache
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.AssemblyInfoInputs.cache
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.AssemblyInfo.cs
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.csproj.CoreCompileInputs.cache
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.dll
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\refint\CMPT391.dll
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.pdb
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\CMPT391.genruntimeconfig.cache
+C:\Users\jason\source\repos\CMPT391\CMPT391\obj\Debug\net6.0\ref\CMPT391.dll
