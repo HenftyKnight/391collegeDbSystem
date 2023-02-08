@@ -32,6 +32,7 @@
             this.UsernameBox = new System.Windows.Forms.TextBox();
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button2
@@ -71,9 +72,20 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "School Registration Login";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(935, 95);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(149, 76);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Skip Login";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Login
             // 
             this.ClientSize = new System.Drawing.Size(1182, 656);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.UsernameBox);
@@ -92,5 +104,6 @@
         private TextBox UsernameBox;
         private TextBox passwordBox;
         private Label label1;
+        private Button button1;
     }
 }

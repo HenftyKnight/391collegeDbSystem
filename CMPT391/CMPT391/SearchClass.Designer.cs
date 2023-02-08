@@ -31,7 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.searchBox = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.searchBtn = new System.Windows.Forms.Button();
+            this.enrollBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -58,21 +59,31 @@
             this.panel1.Size = new System.Drawing.Size(1081, 497);
             this.panel1.TabIndex = 2;
             // 
-            // button1
+            // searchBtn
             // 
-            this.button1.Location = new System.Drawing.Point(267, 22);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(97, 26);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.searchBtn.Location = new System.Drawing.Point(267, 22);
+            this.searchBtn.Name = "searchBtn";
+            this.searchBtn.Size = new System.Drawing.Size(97, 26);
+            this.searchBtn.TabIndex = 3;
+            this.searchBtn.Text = "Search";
+            this.searchBtn.UseVisualStyleBackColor = true;
+            // 
+            // enrollBtn
+            // 
+            this.enrollBtn.Location = new System.Drawing.Point(986, 22);
+            this.enrollBtn.Name = "enrollBtn";
+            this.enrollBtn.Size = new System.Drawing.Size(86, 26);
+            this.enrollBtn.TabIndex = 4;
+            this.enrollBtn.Text = "Enroll";
+            this.enrollBtn.UseVisualStyleBackColor = true;
             // 
             // SearchClass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1105, 622);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.enrollBtn);
+            this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.label1);
@@ -88,6 +99,7 @@
         private Label label1;
         private TextBox searchBox;
         private Panel panel1;
-        private Button button1;
+        private Button searchBtn;
+        private Button enrollBtn;
     }
 }

@@ -80,5 +80,13 @@ namespace CMPT391
             }
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registration a1 = new Registration();
+            a1.ShowDialog();
+            this.Close();
+
+        }
     }
 }

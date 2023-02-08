@@ -55,7 +55,7 @@
             // 
             // searchBtn
             // 
-            this.searchBtn.Location = new System.Drawing.Point(66, 14);
+            this.searchBtn.Location = new System.Drawing.Point(84, 14);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(153, 26);
             this.searchBtn.TabIndex = 2;
@@ -92,7 +92,7 @@
             this.Controls.Add(this.classBtn);
             this.Controls.Add(this.panel1);
             this.Name = "Registration";
-            this.Text = "Registration";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
