@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace CMPT391
 {
     public partial class Registration : Form
     {
+
         public Registration()
         {
             InitializeComponent();
@@ -22,28 +24,29 @@ namespace CMPT391
 
         }
 
-
-
-
         private void searchBtn_Click(object sender, EventArgs e)
         {
-            SearchClass form = new() {Dock = DockStyle.Fill  ,TopLevel = false, TopMost = true };
-            form.FormBorderStyle= FormBorderStyle.None;
+            SearchClass form = new() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            form.FormBorderStyle = FormBorderStyle.None;
             this.panel1.Controls.Add(form);
             form.BringToFront();
-           
+
             form.Show();
         }
 
         private void classBtn_Click(object sender, EventArgs e)
         {
-
             MyClass form = new() { TopLevel = false, TopMost = true };
             form.FormBorderStyle = FormBorderStyle.None;
             this.panel1.Controls.Add(form);
             form.BringToFront();
             form.Refresh();
             form.Show();
+        }
+
+        private void Registration_Load(object sender, EventArgs e)
+        {
+
 
         }
     }

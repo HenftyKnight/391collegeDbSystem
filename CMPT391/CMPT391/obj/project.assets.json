@@ -470,19 +470,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jason\\.nuget\\packages\\": {}
+    "C:\\Users\\pig64\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jason\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
+      "projectUniqueName": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
       "projectName": "CMPT391",
-      "projectPath": "C:\\Users\\jason\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
-      "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jason\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\obj\\",
+      "projectPath": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
+      "packagesPath": "C:\\Users\\pig64\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jason\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pig64\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -490,6 +495,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
