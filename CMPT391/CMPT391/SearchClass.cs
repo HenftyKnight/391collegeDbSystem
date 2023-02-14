@@ -57,7 +57,8 @@ namespace CMPT391
             courseList.Items.Clear();
             String searchCourse = searchBox.Text;
 
-            using (SqlCommand cmd = new SqlCommand("select * from dbo.courses where course_name like '%" + searchCourse +"%';", con))
+            using (SqlCommand cmd = new SqlCommand("select *, CONCAT(first_name, ' ', last_name) as full_name from dbo.courses, dbo.instructors where course_name like '%" + 
+                searchCourse +"%'" + "and courses.instructor_id = instructors.instructor_id;", con))
             {
                 //cmd.Parameters.AddWithValue("@ACourse", searchBox.Text);
                 con.Open();
@@ -76,7 +77,7 @@ namespace CMPT391
                         item.SubItems.Add(row["day_of_the_week"].ToString());
                         item.SubItems.Add(row["max_capacity"].ToString());
                         item.SubItems.Add(row["seats_available"].ToString());
-                        //add instructor
+                        item.SubItems.Add(row["full_name"].ToString());
                         courseList.Items.Add(item);
 
                     }
