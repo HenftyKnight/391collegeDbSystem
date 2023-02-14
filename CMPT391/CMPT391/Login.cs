@@ -25,7 +25,7 @@ namespace CMPT391
         {
             InitializeComponent();
             //String connectionString = "Server = WAKA; Database = SCHOOL; Trusted_Connection = yes;";
-            String connectionString = "Server = LAPTOP-Q9IE4QUU; Database = REGISTRATION; Trusted_Connection = yes;";
+            String connectionString = "Server = DESKTOP-N0EUKH9; Database = REGISTRATION; Trusted_Connection = yes;";
 
 
             SqlConnection myConnection = new SqlConnection(connectionString); // Timeout in seconds
@@ -51,7 +51,7 @@ namespace CMPT391
         {
             username = UsernameBox.Text;
             //SqlConnection con = new SqlConnection(@"Data Source=WAKA;Initial Catalog=SCHOOL;Integrated Security=True");
-            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-Q9IE4QUU;Initial Catalog=REGISTRATION;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-N0EUKH9;Initial Catalog=REGISTRATION;Integrated Security=True");
 
             SqlCommand cmd = new SqlCommand("select * from dbo.students where username=@ANum and passwd=@Pass", con);
             cmd.Parameters.AddWithValue("@ANum", UsernameBox.Text);
