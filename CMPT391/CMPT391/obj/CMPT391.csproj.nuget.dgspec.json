@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj": {}
+    "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj": {
+    "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
+        "projectUniqueName": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
         "projectName": "CMPT391",
-        "projectPath": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\CMPT391.csproj",
-        "packagesPath": "C:\\Users\\pig64\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pig64\\Desktop\\391collegeDbSystem\\CMPT391\\CMPT391\\obj\\",
+        "projectPath": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
+        "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\pig64\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0-windows"
+          "net6.0-windows7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,8 +51,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
