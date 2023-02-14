@@ -38,16 +38,16 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(44, 56);
+            this.panel1.Location = new System.Drawing.Point(44, 59);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1103, 577);
+            this.panel1.Size = new System.Drawing.Size(1103, 607);
             this.panel1.TabIndex = 0;
             // 
             // classBtn
             // 
-            this.classBtn.Location = new System.Drawing.Point(243, 14);
+            this.classBtn.Location = new System.Drawing.Point(243, 15);
             this.classBtn.Name = "classBtn";
-            this.classBtn.Size = new System.Drawing.Size(153, 26);
+            this.classBtn.Size = new System.Drawing.Size(153, 27);
             this.classBtn.TabIndex = 1;
             this.classBtn.Text = "My Classes";
             this.classBtn.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // searchBtn
             // 
-            this.searchBtn.Location = new System.Drawing.Point(84, 14);
+            this.searchBtn.Location = new System.Drawing.Point(84, 15);
             this.searchBtn.Name = "searchBtn";
-            this.searchBtn.Size = new System.Drawing.Size(153, 26);
+            this.searchBtn.Size = new System.Drawing.Size(153, 27);
             this.searchBtn.TabIndex = 2;
             this.searchBtn.Text = "Search Classes";
             this.searchBtn.UseVisualStyleBackColor = true;
@@ -66,33 +66,34 @@
             // date
             // 
             this.date.AutoSize = true;
-            this.date.Location = new System.Drawing.Point(849, 21);
+            this.date.Location = new System.Drawing.Point(849, 22);
             this.date.Name = "date";
-            this.date.Size = new System.Drawing.Size(38, 19);
+            this.date.Size = new System.Drawing.Size(41, 20);
             this.date.TabIndex = 3;
             this.date.Text = "Date";
             // 
             // time
             // 
             this.time.AutoSize = true;
-            this.time.Location = new System.Drawing.Point(1025, 21);
+            this.time.Location = new System.Drawing.Point(1025, 22);
             this.time.Name = "time";
-            this.time.Size = new System.Drawing.Size(38, 19);
+            this.time.Size = new System.Drawing.Size(42, 20);
             this.time.TabIndex = 4;
             this.time.Text = "Time";
             // 
             // Registration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 656);
+            this.ClientSize = new System.Drawing.Size(1182, 691);
             this.Controls.Add(this.time);
             this.Controls.Add(this.date);
             this.Controls.Add(this.searchBtn);
             this.Controls.Add(this.classBtn);
             this.Controls.Add(this.panel1);
             this.Name = "Registration";
-            this.Text = " ";
+            this.Text = " Registration";
+            this.Load += new System.EventHandler(this.Registration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

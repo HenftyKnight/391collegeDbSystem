@@ -50,7 +50,7 @@
             this.UsernameBox.Location = new System.Drawing.Point(435, 280);
             this.UsernameBox.Name = "UsernameBox";
             this.UsernameBox.PlaceholderText = "Username";
-            this.UsernameBox.Size = new System.Drawing.Size(178, 26);
+            this.UsernameBox.Size = new System.Drawing.Size(178, 27);
             this.UsernameBox.TabIndex = 1;
             // 
             // passwordBox
@@ -59,7 +59,7 @@
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
             this.passwordBox.PlaceholderText = "Password";
-            this.passwordBox.Size = new System.Drawing.Size(178, 26);
+            this.passwordBox.Size = new System.Drawing.Size(178, 27);
             this.passwordBox.TabIndex = 2;
             // 
             // label1
@@ -68,7 +68,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(328, 99);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(582, 62);
+            this.label1.Size = new System.Drawing.Size(633, 67);
             this.label1.TabIndex = 3;
             this.label1.Text = "School Registration Login";
             // 
@@ -92,6 +92,7 @@
             this.Controls.Add(this.button2);
             this.Name = "Login";
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
