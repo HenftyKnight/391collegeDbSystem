@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {}
+    "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {
+    "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
+        "projectUniqueName": "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
         "projectName": "CMPT391",
-        "projectPath": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
+        "projectPath": "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
         "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\obj\\",
+        "outputPath": "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config",

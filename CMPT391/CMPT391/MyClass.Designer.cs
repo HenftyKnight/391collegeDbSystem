@@ -37,6 +37,7 @@
             this.section = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.start_time = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.end_time = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.day_of_the_week = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -76,7 +77,8 @@
             this.course_name,
             this.section,
             this.start_time,
-            this.end_time});
+            this.end_time,
+            this.day_of_the_week});
             this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
@@ -92,6 +94,7 @@
             // 
             this.course_name.HeaderText = "course name";
             this.course_name.Name = "course_name";
+            this.course_name.Width = 150;
             // 
             // section
             // 
@@ -110,6 +113,12 @@
             this.end_time.Name = "end_time";
             this.end_time.Width = 150;
             // 
+            // day_of_the_week
+            // 
+            this.day_of_the_week.HeaderText = "Day of the week";
+            this.day_of_the_week.Name = "day_of_the_week";
+            this.day_of_the_week.Width = 150;
+            // 
             // MyClass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -121,7 +130,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "MyClass";
             this.Text = "Form1";
-            
+            this.Load += new System.EventHandler(this.MyClass_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -140,5 +149,6 @@
         private DataGridViewTextBoxColumn section;
         private DataGridViewTextBoxColumn start_time;
         private DataGridViewTextBoxColumn end_time;
+        private DataGridViewTextBoxColumn day_of_the_week;
     }
 }

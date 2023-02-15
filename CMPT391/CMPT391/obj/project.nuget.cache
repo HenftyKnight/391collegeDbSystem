@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WPG8K0paDG9sJJDUZ+65YgsTimDJPlWvVQ4WZ7J7GiKlnXEcqDFwEr/KUR5ETuxnvtAr3Y357Y4Qe5cCJ0U9BQ==",
+  "dgSpecHash": "PUXmilWi5xBevf9gF86+4IQO66aJ5qJKxxW6eAieGr5IBqOzbTrE/A7PR+0WHw5f3K64+nxEWLK/zBeml30V/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ben\\Source\\Repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
+  "projectFilePath": "C:\\Users\\Ben\\source\\repos\\391collegeDbSystem5\\CMPT391\\CMPT391\\CMPT391.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ben\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Ben\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
