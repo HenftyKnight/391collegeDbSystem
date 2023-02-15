@@ -48,7 +48,7 @@ namespace CMPT391
                 dataGridView1.Rows.Clear();
                 while (myReader.Read())
                 {
-                    dataGridView1.Rows.Add(myReader["course_id"].ToString(), myReader["course_name"].ToString(), myReader["section"].ToString(), myReader["start_time"].ToString(), myReader["end_time"].ToString());
+                    dataGridView1.Rows.Add(myReader["course_id"].ToString(), myReader["course_name"].ToString(), myReader["section"].ToString(), myReader["start_time"].ToString(), myReader["end_time"].ToString(), myReader["Day_of_the_week"].ToString());
                 }
 
                 myReader.Close();
@@ -63,6 +63,10 @@ namespace CMPT391
 
         }
 
+        private void MyClass_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
